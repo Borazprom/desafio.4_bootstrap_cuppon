@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;600&family=Montserrat:wght@200;400;700&family=Nunito:wght@400;700&family=Raleway:wght@400;500&family=Roboto:wght@300;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+}
+
+h4, h5, h6 p {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav{
+    background-color:#28A745;
+
+}
+nav img{
+    width: 150px;
+    padding-left: 10px;
+}
+nav .navbar-collapse{
+    justify-content: end;
+    padding-right: 30px; 
+}
+
+.navbar-toggler span{
+    color: white;
+}
+
+h5 p {
+    font-size: 15px; 
+}
+
+.ubicacion {
+    display: flex;
+}
+.ubicacion i {
+    padding-right: 10px;;
+}
+.price {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    
+}
+.price h4 {
+    color: #28A745;
+}
+
+form{
+    background-color:#28A745 ;
+}
+ 
